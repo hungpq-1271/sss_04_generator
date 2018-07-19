@@ -19,9 +19,9 @@ module.exports = {
   get_list: function() {
     return this.list;
   },
-  to_s: function() {
+  to_s: function(index) {
     let result = "";
-    for(let i = 0; i < this.list.length; i++) {
+    for (let i = (index + 8); i >= index; i--) {
       result += Mustache.render(single_announcement, this.list[i])
     }
     return result;
