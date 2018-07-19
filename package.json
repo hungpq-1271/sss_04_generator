@@ -1,0 +1,15 @@
+{
+  "name": "ss_04_template",
+  "version": "1.0.0",
+  "description": "A html generator for SS-04 screen",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "hwng",
+  "license": "ISC",
+  "dependencies": {
+    "create-html": "^4.1.0",
+    "mustache": "^2.3.0"
+  }
+}
