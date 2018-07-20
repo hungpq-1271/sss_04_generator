@@ -8,5 +8,6 @@ module.exports = {
   end: 67,
   output: "./dist/",
   css_cdn: "https://s3-ap-northeast-1.amazonaws.com/xflag-x1-assets-stg/announcements/css/main.css",
-  js_cdn: "https://s3-ap-northeast-1.amazonaws.com/xflag-x1-assets-stg/announcements/js/main.js"
+  js_cdn: "https://s3-ap-northeast-1.amazonaws.com/xflag-x1-assets-stg/announcements/js/main.js",
+  mark_new_img: "https://djgiod506m62u.cloudfront.net/announcements/images/start_mark_new.png"
 };

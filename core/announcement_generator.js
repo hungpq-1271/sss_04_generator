@@ -11,7 +11,8 @@ module.exports = {
       this.list.push({
         title: "SAMPLE " + i,
         time: app.base_time_unix + ticker.get_bonus_second(),
-        link: app.link
+        link: app.link,
+        mark_new: app.mark_new_img
       });
       ticker.add_quad();
     }
