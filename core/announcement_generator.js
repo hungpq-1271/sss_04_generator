@@ -3,6 +3,10 @@ const Mustache = require('mustache');
 const _ticker = require('./ticker');
 let single_announcement = require('../template/single');
 
+let ticker_time = Object.create(_ticker);
+ticker_time.set_hour(6);
+ticker_time.remove_quad();
+
 module.exports = {
   list: [],
   gen_list: function (start, end) {
@@ -10,7 +14,7 @@ module.exports = {
     for (let i = start; i <= end; i++) {
       this.list.push({
         title: "SAMPLE " + i,
-        time: app.base_time_unix + ticker.get_bonus_second(),
+        time: gen_time_string(ticker_time.to_s()),
         link: app.link,
         mark_new: app.mark_new_img
       });
@@ -28,3 +32,7 @@ module.exports = {
     return result;
   }
 };
+
+function gen_time_string(time_string) {
+  return app.base_date + "-" + time_string;
+}

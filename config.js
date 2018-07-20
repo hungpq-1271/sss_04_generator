@@ -5,9 +5,9 @@ module.exports = {
   period_unix: 15 * 60,
   link: "https://google.com",
   start: 1,
-  end: 67,
+  end: 60,
   output: "./dist/",
-  css_cdn: "https://s3-ap-northeast-1.amazonaws.com/xflag-x1-assets-stg/announcements/css/main.css",
-  js_cdn: "https://s3-ap-northeast-1.amazonaws.com/xflag-x1-assets-stg/announcements/js/main.js",
-  mark_new_img: "https://djgiod506m62u.cloudfront.net/announcements/images/start_mark_new.png"
+  css_cdn: "https://d1f7rideu1qnfq.cloudfront.net/announcements/lists/css/main.css",
+  js_cdn: "https://d1f7rideu1qnfq.cloudfront.net/announcements/lists/js/main.js",
+  mark_new_img: "https://d1f7rideu1qnfq.cloudfront.net/announcements/lists/images/start_mark_new.png"
 };

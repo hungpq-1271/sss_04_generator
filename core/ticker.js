@@ -10,6 +10,12 @@ module.exports = Object.create({
   add_quad: function() {
     this.quad ++;
   },
+  remove_quad: function() {
+    this.quad --;
+  },
+  set_hour: function(val) {
+    this.hour = val;
+  },
   get_hour: function () {
     return this.hour + Math.floor(this.quad/4);
   },
